@@ -1,3 +1,20 @@
+//
+// Cat.java mimics the function of the "cat" command on a shell
+// "cat" is short from contcatenate which means to combine or link together
+//
+// We can compile the program with "javac Cat.java"
+//
+// Execute by running "java Cat"
+// We can print out a set of files by running "java Cat <file1> <file2> ..." where
+// "<file1>" and so on are replaced by files on your local system
+//
+// You can test output by running the following command from the directory with this command:
+//    java Cat ../flat.txt
+//
+// We can also take information from stdin using a "here document" and outputing to a give file with
+//    java Cat <<EOF >../test.txt
+//
+
 // Import for the Scanner class
 import java.util.*;
 // Import for the FileInputStream class
